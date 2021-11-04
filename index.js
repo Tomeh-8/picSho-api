@@ -25,9 +25,7 @@ app.use(cors());
  app.use("/", postRoute);
  app.use("/users", userRoute);
 
- app.get("/", (req, res) => {
-    res.send("Welcome to picMood Api!")
- });
+
 
 
 //listen
