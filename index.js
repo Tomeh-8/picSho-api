@@ -31,5 +31,5 @@ app.use(cors());
 
 
 //listen
-const PORT = process.env.PORT;
-app.listen(PORT || 5000, () => console.log(`connected`));
+const PORT = process.env.PORT|| 5000;
+app.listen(PORT, () => console.log(`connected on port: ${PORT}`))
